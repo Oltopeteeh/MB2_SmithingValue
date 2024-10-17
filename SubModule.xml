@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="SmithingValue"/>
+	<Id value="SmithingValue"/>
+	<Version value="v1.2.4.0"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+	<DependedModules>
+        <DependedModule Id="Native" DependentVersion="v1.2.4"/>
+        <DependedModule Id="SandBoxCore" DependentVersion="v1.2.4"/>
+        <DependedModule Id="Sandbox" DependentVersion="v1.2.4"/>
+        <DependedModule Id="CustomBattle" DependentVersion="v1.2.4"/>
+        <DependedModule Id="StoryMode" DependentVersion="v1.2.4"/>
+		<DependedModule Id="Bannerlord.Harmony" DependentVersion="v2.2.2" />
+	</DependedModules>
+	<SubModules>
+		<SubModule>
+			<Name value="SmithingValue"/>
+			<DLLName value="SmithingValue.dll"/>
+			<SubModuleClassType value="SmithingValue.SmithingValue_SubModule"/>
+			<Tags/>
+		</SubModule>
+	</SubModules>
+</Module>
